@@ -1,0 +1,7 @@
+
+config BR2_PACKAGE_AESD_CHARDRIVER
+	bool "aesd-chardriver"
+	help
+	  Aesd Character Driver
+	  Used to understand buildroot external trees and package builds.
+na

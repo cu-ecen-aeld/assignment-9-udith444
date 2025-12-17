@@ -1,0 +1,21 @@
+#! /bin/sh 
+
+
+case "$1" in
+    start)
+        echo ">Starting init script for Module Loading: aesdchar"
+        start-stop-daemon -S -n init -a /bin/aesdchar_load
+        echo ">aesdchar started"
+        ;;
+    stop)
+        echo ">Removing user modules: aesdchar"
+        start-stop-daemon -K -n aesdchar_load
+        echo ">aesdchar_load stopped"
+        start-stop-daemon -S -n init -a /bin/aesdchar_unload
+        echo ">aesdchar unloaded"
+        ;;
+    *)
+        echo "Usage: $0 {start|stop}"
+        exit 1
+esac
+exit 0
