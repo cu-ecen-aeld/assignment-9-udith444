@@ -7,13 +7,12 @@
 
 #TODO: Fill up the contents below in order to reference your assignment 3 git contents
 #AESD_CHARDRIVER_VERSION = '#COMMIT VERSION NUMBER'
-AESD_CHARDRIVER_VERSION = a9906810784cf7e963e174e3f3fe2d6dd4e98a6c
-
+AESD_CHARDRIVER_VERSION = 'main'
 # Note: Be sure to reference the *ssh* repository URL here (not https) to work properly
 # with ssh keys and the automated build/test system.
 # Your site should start with git@github.com:
 #AESD_ASSIGNMENTS_SITE = '#GITHUB REPOSITORY LINK'
-AESD_CHARDRIVER_SITE = git@github.com:cu-ecen-aeld/assignments-3-and-later-udith444.git
+AESD_CHARDRIVER_SITE = 'git@github.com:cu-ecen-aeld/assignments-3-and-later-udith444.git'
 AESD_CHARDRIVER_SITE_METHOD = git
 AESD_CHARDRIVER_GIT_SUBMODULES = YES
 
