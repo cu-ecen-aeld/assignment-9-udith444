@@ -1,5 +1,0 @@
-config BR2_PACKAGE_AESD_CHARDRIVER
-	bool "aesd-chardriver"
-	depends on BR2_LINUX_KERNEL
-	help
-	  Aesd Character Driver
